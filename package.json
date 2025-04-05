@@ -1,0 +1,17 @@
+{
+  "name": "base_node_js_project_template",
+  "version": "1.0.0",
+  "description": "a basic backend setup for node",
+  "main": "index.js",
+  "scripts": {
+    "dev":"npx nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "http-status-code": "^2.1.0",
+    "nodemon": "^3.1.9"
+  }
+}
